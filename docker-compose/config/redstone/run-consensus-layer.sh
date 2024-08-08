@@ -8,7 +8,7 @@ cd /data
   --l2=http://op-geth:8551 \
   --l2.jwt-secret=/data/geth/jwtsecret \
   --plasma.enabled \
-  --plasma.da-server=$DA_SERVER \
+  --plasma.da-server=https://da.redstonechain.com \
   --rpc.addr=0.0.0.0 \
   --rpc.port=8547 \
   --rpc.enable-admin \

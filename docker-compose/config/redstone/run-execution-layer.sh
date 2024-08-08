@@ -28,13 +28,12 @@ cd /data
   --ws.port=8546 \
   --ws.addr="0.0.0.0" \
   --ws.origins="*" \
-  --networkid=690 \
   --verbosity=3 \
   --authrpc.addr="0.0.0.0" \
   --authrpc.port=8551 \
   --authrpc.vhosts="*" \
   --rpc.allow-unprotected-txs \
-  --rollup.sequencerhttp=$SEQUENCER_HTTP \
+  --rollup.sequencerhttp=https://rpc.redstonechain.com \
   --gpo.minsuggestedpriorityfee=1000000 \
   --nodiscover
 
