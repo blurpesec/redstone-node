@@ -38,6 +38,7 @@ services:
       - 9003:9003/udp
       - 9003:9003/tcp
       - 9545:9545
+      - 8547:8547
     extra_hosts:
       - "host.docker.internal:host-gateway"
 

@@ -12,6 +12,7 @@ fi
 cd /data
 
 /usr/local/bin/geth \
+  --override.fjord=1724317200 \
   --datadir /data \
   --gcmode archive \
   --syncmode full \
