@@ -5,7 +5,7 @@ then
    echo Already initialized
 else
   echo start initialization
-  /usr/local/bin/geth init --datadir /data /config/garnet/l2-genesis.json
+  /usr/local/bin/geth init --datadir /data /config/pyrope/l2-genesis.json
   echo end initialization
 fi
 
@@ -16,7 +16,7 @@ cd /data
   --datadir /data \
   --gcmode archive \
   --syncmode full \
-  --networkid 17069 \
+  --networkid="695569" \
   --ipcdisable \
   --http \
   --http.port=8545 \
@@ -34,7 +34,7 @@ cd /data
   --authrpc.port=8551 \
   --authrpc.vhosts="*" \
   --rpc.allow-unprotected-txs \
-  --rollup.sequencerhttp=https://rpc.garnetchain.com \
+  --rollup.sequencerhttp=https://rpc.pyropechain.com \
   --gpo.minsuggestedpriorityfee=1000000 \
   --nodiscover
 
